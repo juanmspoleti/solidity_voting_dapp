@@ -5,8 +5,9 @@
 * Run **npm install** command on the project root
 
 ## Start truffle configuration
+Run **truffle build** command (this will generate a build folder in the root of the project)
 Run **truffle migrate** command
-Run **truffle migrate --reset** command to refresh
+Run **truffle migrate --reset** command to refresh (you need to run this every time you do a modification on the contracts or migrations)
 
 ## Start web on local
 Run **npm run dev** command
